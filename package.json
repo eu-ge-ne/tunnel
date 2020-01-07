@@ -1,0 +1,39 @@
+{
+    "name": "@eu-ge-ne/tunnel",
+    "version": "1.0.0",
+    "description": "Reverse ssh tunnel",
+    "keywords": [
+        "javascript",
+        "typescript",
+        "ssh",
+        "ssh tunnel",
+        "self hosted"
+    ],
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eu-ge-ne/tunnel.git"
+    },
+    "author": "Eugene Pobochny <eugene.pobochny@gmail.com> (https://github.com/eu-ge-ne)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/eu-ge-ne/tunnel/issues"
+    },
+    "homepage": "https://github.com/eu-ge-ne/tunnel#readme",
+    "devDependencies": {
+        "@types/node": "12.12.6",
+        "@types/ssh2": "^0.5.39",
+        "typescript": "3.7.4"
+    },
+    "dependencies": {
+        "ssh2": "^0.8.7"
+    }
+}
