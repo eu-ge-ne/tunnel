@@ -1,14 +1,11 @@
 @eu-ge-ne/tunnel
 ================
 
-- [About](#About)
-- [Install](#Install)
-- [Example](#Example)
-- [Api](#Api)
-- [License](#License)
+Reverse ssh tunnel
 
-About
------
+###### [Install](#Install) | [Example](#Example) | [Api](#Api) | [License](#License)
+
+[![npm version](https://badge.fury.io/js/%40eu-ge-ne%2Ftunnel.svg)](https://badge.fury.io/js/%40eu-ge-ne%2Ftunnel)
 
 Forwards traffic from public to local developer's machine.
 Think of self-hosted alternative to ngrok, localtunnel etc, but without traffic limitations.
