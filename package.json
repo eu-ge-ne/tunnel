@@ -1,6 +1,6 @@
 {
     "name": "@eu-ge-ne/tunnel",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Reverse ssh tunnel",
     "keywords": [
         "javascript",
