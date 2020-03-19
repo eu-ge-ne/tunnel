@@ -29,11 +29,11 @@
     },
     "homepage": "https://github.com/eu-ge-ne/tunnel#readme",
     "devDependencies": {
-        "@types/node": "12.12.6",
-        "@types/ssh2": "^0.5.39",
-        "typescript": "3.7.4"
+        "@types/node": "^12.12.30",
+        "@types/ssh2": "^0.5.41",
+        "typescript": "3.8.3"
     },
     "dependencies": {
-        "ssh2": "^0.8.7"
+        "ssh2": "^0.8.9"
     }
 }
