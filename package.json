@@ -15,8 +15,9 @@
         "lib"
     ],
     "scripts": {
+        "prebuild": "rimraf ./lib",
         "build": "tsc",
-        "prepare": "tsc"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -31,6 +32,7 @@
     "devDependencies": {
         "@types/node": "^12.12.30",
         "@types/ssh2": "^0.5.41",
+        "rimraf": "3.0.2",
         "typescript": "3.8.3"
     },
     "dependencies": {
